@@ -1,0 +1,44 @@
+.blinking{
+    animation:blinkingText 1.6s infinite;
+  font-size: 58px;
+    font-family: 'Courier New', Courier, monospace;
+}
+@keyframes blinkingText{
+    0%{     color: red;    }
+    49%{    color: blue; }
+    60%{    color: green; }
+    99%{    color:yellow;  }
+    100%{   color: pink;    }
+}
+.container{
+    text-align: center;
+    margin-top:23px
+}
+table{
+    margin: auto;
+}
+input{
+    border-radius: 51px;
+    border: 3px solid #244624;
+    font-size:34px;
+    height: 65px;
+    width: 456px;
+    color:red;
+}
+button{
+    border-radius: 150px;
+    border-color:rgb(17, 15, 15);
+    font-size: 20px;
+    background: orange;
+    width: 72px;
+    height: 50px;
+    margin: 10px;
+}
+.calculator{ 
+    border: 3px solid #13695d;
+    background: linear-gradient(#9966ff, #ff99cc);
+    padding: 23px;
+    border-radius: 3px;
+    display: inline-block;
+    
+}
